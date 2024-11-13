@@ -1,6 +1,6 @@
 /* Основной стиль страницы */
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Helvetica Neue", sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
