@@ -6,7 +6,7 @@ document.getElementById("sendButton").addEventListener("click", function() {
 
         // Имитируем ответ бота
         setTimeout(() => {
-            const botResponse = "Это ответ бота на ваш запрос: " + userMessage;
+            const botResponse = "Ответ: " + userMessage;
             addMessageToChat("bot", botResponse);
         }, 1000);
     }
